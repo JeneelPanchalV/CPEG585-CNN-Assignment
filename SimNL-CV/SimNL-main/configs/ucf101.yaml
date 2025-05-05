@@ -1,0 +1,40 @@
+augment_epoch: 10
+backbone: RN50
+dataset: ucf101
+eps: 0.002
+init_alpha: 1
+init_alpha2: 0
+init_beta: 1
+init_beta2: 0
+init_lambda: 0.75
+lr: 0.0001
+root_path: C:/Users/diyad/Downloads/SimNL-main/SimNL-main/DATA/ucf101
+search_hp: true
+search_scale:
+- 15
+- 7
+- 0.2
+- 0.2
+- 0.5
+search_scale2:
+- 20.0
+- 30.0
+- 20.0
+- 10.0
+- 1.0
+search_step:
+- 100
+- 20
+- 10
+- 10
+- 5
+seed: 3407
+train_epoch: 30
+training_feat_num: 1024
+training_free_feat_num: 1024
+w_training:
+- 0.2
+- 0.8
+w_training_free:
+- 0.3
+- 0.7
